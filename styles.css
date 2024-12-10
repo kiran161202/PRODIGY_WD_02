@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #cdb4db;
+    height: 100vh;
+}
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    background-color: #ffc8dd;
+    color: black;
+    text-align: center;
+    line-height: 55px;
+}
+.stopwatch{
+   background-color: #bde0fe;
+   padding: 5px;
+   border: 5px solid #003049;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   margin: 15px;
+}
+.result{
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.control{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+  padding: 10px 15px;  
+  font-size: 15px;
+  background-color: #023047;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: #0077b6;
+}
+button:active{
+    background-color: #dad7cd;
+}
